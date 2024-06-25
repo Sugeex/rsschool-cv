@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Sugeex.github.io/rsschool-cv/cv
