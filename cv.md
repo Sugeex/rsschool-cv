@@ -17,7 +17,8 @@ I am able to work in a team, be attentive to details and learn quickly.
 * C++(basic), Python(basic)
 
 ## Code examples
-```function add(x) {
+```
+function add(x) {
   return function(y) {
     return x + y;
   }
