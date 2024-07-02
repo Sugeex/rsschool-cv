@@ -1,1 +1,1 @@
-https://Sugeex.github.io/rsschool-cv/cv
+https://Sugeex.github.io/rsschool-cv/
