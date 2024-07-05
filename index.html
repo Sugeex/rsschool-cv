@@ -4,10 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div>
-    <h1>This is a CV</h1>
-   </div>
+    <header class="header">
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li class="list-item"><a href="#">About me</a></li>
+                <li class="list-item"><a href="#">Skills</a></li>
+                <li class="list-item"><a href="#">Code examples</a></li>
+                <li class="list-item"><a href="#">Education</a></li>
+                <li class="list-item"><a href="#">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left-colum">
+            <section class="photo">
+                <img src="#" alt="avatarka">
+            </section>
+            <section class="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Telegram: @Sugeex</li>
+                    <li>E-mail: Nemerchenko02@mail.ru</li>
+                    <li>GitHub: [Sugeex](https://github.com/Sugeex)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li>
+                        <p>Russia</p>
+                        <p>Native</p>
+                    </li>
+                    <li>
+                        <p>English</p>
+                        <p>B1(Intermediate)</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-colum">
+            <section class="name">
+                <h1>Daniil Nemerchenko</h1>
+                <p>Junior Frontend-developer</p>
+            </section>
+            <section class="aboutme">
+                <h2>About me</h2>
+                <p>I am actively studying the field of web development. I want to become a professional in this field, so I’m improving my development skills and mastering an ever-increasing technology stack.
+                    I am able to work in a team, be attentive to details and learn quickly.</p>
+            </section>
+            <section class="Education">
+                <h2>Education</h2>
+                <p>Vladimir State University</p>
+                <p>Informatics and Computer Science</p>
+            </section>
+            <section class="codeEx">
+                <h2>Code Examlpe</h2>
+                <pre>
+                    <code>
+                      function add(x) {
+                        return function(y) {
+                          return x + y;
+                        }
+                      }
+                      let add5 = add(5);
+                      console.log(add5(3));
+                    </code>
+                </pre>
+            </section>
+            <section class="petProj">
+                <h2>My pet project</h2>
+                <p>PhotoFilter</p>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>
