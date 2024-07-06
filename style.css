@@ -18,16 +18,40 @@ main{
 .list-item{
    padding: 10px 10px;
 }
+.photo{
+   background-color: white;
+}
+.photo>img{
+   text-align: center;
+   width: 200px;
+   height: 200px;
+}
+.left-colum{
+   padding: 0 50px;
+   background-color: #0A5F38;
+   color: white;
+}
 .right-colum{
+   padding: 0 50px;
    flex-direction: column;
    justify-content: center;
+   
+}
+.aboutme p{
+   font-size: 18px;
 }
 .name{
-   padding-top: 20px;
-   text-align: center;
+   margin-top: 50px;
+   padding: 35px;
    display: flex;
    flex-direction: column;
    justify-content: center;
+}
+.DN{
+   font-size: 45px;
+}
+.DN-subline{
+   font-size: 25px;
 }
 .name>h1,p{
    margin: 0;
